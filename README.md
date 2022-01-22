@@ -1,2 +1,2 @@
 # css-estudos
-Resumo de css3 básico, intermediário e avançado
+Resumo css3 básico, intermediário e avançado
