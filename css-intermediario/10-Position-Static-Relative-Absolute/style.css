@@ -1,0 +1,46 @@
+*{
+    margin: 0; /*encostar todos elemento da tela a esquerda*/
+}
+
+.elemento{
+    color: #fff; /* cor brano */
+    font-size: 32px; /**/
+    width: 250px;   /*largura*/
+    height: 250px;  /*altura*/
+    text-align: center;  /*alinhar o texto no centro*/
+    margin-bottom: 20px; /*espacamento entre os elementos*/
+}
+
+.elemento-estatico{
+    position: static; /*Esse elemento vai ficar travado na tela */
+    background-color: crimson; /*cor de fundo*/
+}
+/* Esse elemento relativamento ao lugar onde foi criado  */
+.elemento-relativo{
+    position: relative; /*Pode ser movimentado */
+    left: 100px;        /*Movimentou para direita*/
+    background-color: orange;
+}
+/*Ele fica destacado, só ele, então pode ser movimentado */
+.elemento-absoluto{
+    position: absolute; /*Se não tivesse esse codigo ele aparecia */
+    left: 200px;
+    background-color: darkcyan;
+    top: 0; /*aqui foi para o top*/
+}
+/*  */
+.elemento-relativo-com-filho{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background-color: rgb(212, 21, 212);
+}
+
+.elemento-absoluto-com-pai{
+    position: absolute;
+    top: 0; /*A div continua relativa a div pai */
+    right: 0; /*O elemento pai vai para direta*/
+    width: 150px;
+    height: 150px;
+    background-color: darkcyan;
+}

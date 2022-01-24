@@ -1,0 +1,38 @@
+/*Definir o display flex na classe pai class:container */
+
+/* Direction */
+/* .container{
+    display: flex;
+    flex-direction: row ;Vamos usar essa propriedade
+} */
+
+/* Valores da propriedade flex-direction
+    row - começa da direita para esquerda
+    rou-reverse - começa da esquerda para direita
+    column - fica um embaixo do outro na ordem 1 2 3
+    column-reverse - fica um embaixo do outro na ordem 3 2 1  */
+
+/*  wrap */
+/* .container{
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap; */
+/* Valores da propriedade flex-wrap
+    wrap - quebra para baixo os filhos 
+    nowwrap - fica em linha 
+    wrap-reverse - de baixo para cima  */
+
+    /* Flex flow eixo travessal e eixo principal */
+
+.container{
+    display: flex;
+    flex-flow: column nowrap; 
+}
+/* column quebra para baixo  */
+.container div{
+    background-color: aquamarine;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}

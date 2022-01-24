@@ -1,0 +1,43 @@
+/* Cor de fundo para o bady cinza */
+body {
+    background-color: #E1E2E1; /*Cor de fundo */
+}
+.cabecalho {
+    padding: 10px 5px;
+    background-color: #69f0ae; /*Cor de fundo */
+
+}
+/* Alinhar o display */
+ .cabecalho .logo {
+    display: inline-block;
+}
+
+.cabecalho nav {
+    float: right; /*Ficar na direita */
+}
+
+.cabecalho nav li {
+    display: inline-block; /*Ficar um do lado do outro */
+    padding: 15px; /*espaço*/
+}
+
+main{
+    background-color: white;
+    padding: 30px;
+    min-width: 320px; /*menor largura do men no celular */
+    max-width: 1024px;
+    /* width: 1024px; */
+    margin: 0 auto; /*Vai centralizado toda a div*/
+}
+
+main .info{
+    font-size: 18px;
+}
+main p{
+    font-size: 16px;
+}
+
+.imageimg {
+    width: 100%;
+}
+

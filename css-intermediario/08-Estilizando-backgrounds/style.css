@@ -1,0 +1,46 @@
+p {
+    color: coral ;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bg{
+    background-color: lightgreen;
+    background-image: url(./imagens/cat.png); /* Colocando uma imagem de fundo  */
+}
+/* No Vscode clicando na imagem no rodapé da para ver a largura e a altura da img */
+.bg-image{
+    width: 513px; /*Largura*/
+    height: 340px; /*Altura*/
+}
+/* repeat*/
+.bg-repeat{
+    background-repeat: no-repeat; /*Não vai repetir |epeat-y repete para baixo | repeat-x */
+    height: 540px;
+}
+
+/* Background size couver */
+.bg-size-couver{
+    background-size: cover; /* Essa propriedade ocupa toda a div */
+    height: 540px; /*Mas cuidado para não estourar a imagem ela tem 340px */
+}
+/* A imagem está fixa no fundo, pode rolar a tela e a imagem acompanha
+efeito paralax */
+.bg-fixed{
+    background-attachment: fixed; 
+    height: 540px;
+}
+
+/* podemos alinha em baixo ,bottom e a direita right
+se deixar so o botom a imagem fica no centro 
+background-position: 20% não  é muito usada mais é uma opção também */
+/* .bg-position{
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    height: 540px;
+} */
+/*  outra forma , vamos passar a cor de fundo + a imagem + direita + topo */
+.bg-position{
+        height: 540px;
+        background: #000 url(./imagens/cat.png) no-repeat right top; 
+}

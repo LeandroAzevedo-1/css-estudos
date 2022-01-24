@@ -1,0 +1,16 @@
+/* 1º propriedade de texto, uma fonte Serif é usado em site de jornais, revistas, sans Serif e a mais 
+usadas em site 
+fonte-family - vamos usar mais em um parágrafos ou algum texto em especifico  */
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+    /* Se ela não carregar Arial, ela tenta carregar ao outra ou da mesma classe */
+
+p {
+    font-family:'Courier New', Courier, monospace;
+
+    font-size: 20px; /* Aumenta o tamanho da fonte */
+
+    font-weight: bold; /*Peso da fonte, bold é negrito- mas pode colocar numero ex 700,300*/
+
+}

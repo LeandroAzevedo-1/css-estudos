@@ -1,0 +1,91 @@
+/* Cor de fundo para o bady cinza */
+body {
+    background-color: #E1E2E1; /*Cor de fundo */
+}
+.cabecalho {
+    padding: 10px 5px;
+    background-color: #69f0ae; /*Cor de fundo */
+
+}
+/* Alinhar o display */
+ .cabecalho .logo {
+    display: inline-block;
+}
+
+.cabecalho nav {
+    float: right; /*Ficar na direita */
+}
+
+.cabecalho nav li {
+    display: inline-block; /*Ficar um do lado do outro */
+    padding: 15px; /*espaço*/
+}
+
+main{
+    background-color: white;
+    padding: 30px;
+    min-width: 320px; /*menor largura do men no celular */
+    max-width: 1024px;
+    /* width: 1024px; */
+    margin: 0 auto; /*Vai centralizado toda a div*/
+}
+
+main .info{
+    font-size: 18px;
+}
+main p{
+    font-size: 16px;
+}
+
+.image img {
+    width: 100%;
+}
+
+
+/* Para escrever MEDIA QUERIES - Responsivo 
+@media (max-width: 576px) essa é a regra, media queries é um ponto de quebra!
+576px= se a tela ficar menor do que isso, vamos aplicar o que escrevemos dentro do 
+escopo do @media*/
+
+/*                          Tamanhos de media queries
+Se diminuir e passar de 576px a cor de fundo ficará azul
+ dispositivos extra pequenos (celulares em posição porta retrato, menores do que 576px)*/
+
+
+@media (max-width: 576px) {
+
+    .cabecalho{
+        text-align: center;
+    }
+
+    .cabecalho{
+        background-color: blue; 
+    }
+
+    .cabecalho nav{
+        float: none; /*Vai remover de cima e colocar embaixo, ocupa todo espaço*/
+    }
+    .cabecalho nav li {
+        display:block; /*Fica um embaixo do outro */
+        
+    }
+    /* // dispositivos pequenos (celulares em posição paisagem, menos de 768px) */
+    
+    /* @media (max-width: 768px) {  } */
+    
+    /* // dispositivos médios (tablets, menos de 992px) */
+    
+    /* @media (max-width: 992px) {  } */
+    
+    /* // dispositivos grandes (desktops, menos de 1200px) */
+    
+    /* @media (max-width: 1200px) {  } */
+    
+    /*// dispositivos extra grandes (desktops grandes) pode ser uma tv 
+    
+    // 1200px ou mais, não tem breakpoint
+            
+                Esse é o padrão*/
+
+
+}

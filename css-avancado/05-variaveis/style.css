@@ -1,0 +1,31 @@
+/* Tamanho de fonte, Cor igual em todos os elementos
+Variáveis Global - usado em todos os documento, estilo
+Variável local - Utilizada no seletor que ele foi criada */
+
+/*Variável global, root é a raiz do doc, aqui é o html*/
+/* Se mudar a cor aqui no root, todos elementos com a mesma variável mudará */
+:root{
+    --cor-padrao:green; /*Se mudar de cor, mudará todos os elementos*/
+    --tamanho-de-fonte-padrao: 20px;
+}
+
+h2{
+    --cor-padrao:red; /*Se mudar de cor, mudará todos os elementos*/
+
+
+    color: var(--cor-padrao, red);
+    font-size: var(--tamanho-de-fonte-padrao, 20px);
+    background-color:var(--cor-padrao);
+}
+h3{
+    color: var(--cor-padrao,red);
+    font-size: var(--tamanho-de-fonte-padrao, 20px);
+}
+p{
+    color: var(--cor-padrao, red);
+    font-size: var(--tamanho-de-fonte-padrao, 20px);
+}
+span{
+    color: var(--cor-padrao,red);
+    font-size: var(--tamanho-de-fonte-padrao, 20px);
+}

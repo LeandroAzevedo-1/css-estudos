@@ -1,0 +1,64 @@
+/* Grow define  a capacidade de flex items crescer dentro do cantainer se 
+necessário 
+
+    Grow         */
+
+.grow-0{
+    flex-grow: 0;
+}
+
+.grow-1{
+    flex-grow: 1;
+}
+
+.grow-2{
+    flex-grow: 2;
+}
+
+.grow-3{
+    flex-grow: 3;
+}
+
+/* Flex basis - Cria o mesmo tamanho para conteúdo diferente  */
+.basis-auto{
+    flex-basis: auto; /*É o padrão não muda nada nos elementos */
+}
+
+.basis-0{
+    flex-basis: 0; /*Todos os elemento fica com a mesma largura dentro do container */
+}
+
+.basis-100{
+    flex-basis: 100px;
+}
+
+.basis-100{
+    flex-basis: 200px;
+}
+
+.basis-100{
+    flex-basis: 300px;
+}
+/* Shrink  - Encolher  */
+.shrink-1{
+    flex-shrink: 1;
+}
+
+.shrink-2{
+    flex-shrink: 2;
+}
+
+.shrink-3{
+    flex-shrink: 3;
+}
+.shrink-0{
+    flex-shrink: 0;
+}
+
+/* .shrink .item{
+    width: 200PX; Quanto maior o valor, ele será reduzido na caixa 
+} */
+
+.wrap{
+    flex-wrap: wrap;
+}

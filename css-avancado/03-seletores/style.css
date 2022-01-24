@@ -1,0 +1,59 @@
+/* Seletor h1 */
+h1{
+    color: greenyellow;
+}
+/* Seletor usando classes */
+.paragrafos{
+    color: blue;
+}
+/* Seleror usando id, e ideal usar id uma única vez por sites */
+#menu{
+    color: goldenrod;
+    margin-left: 100px; /*coloca do lado direito */
+}
+
+/* Estelizando todos os elementos da páginas  */
+*{
+    padding: 0; /*Todos elementos com padding 0*/
+    font-size: 20px; /*todos elementos com a fonte de 20px*/
+} 
+
+/* Estilização Usando duas classes no mesmo elemento  */
+.titulo{
+    font-size: 30px; /*Estiliza as duas classes com o tamanho de 30px */
+}
+/* Lembrando que não pode ter espaço entre uma classe e outra */
+.titulo.larnja{
+    color: orange;
+}
+.titulo.vermelho{
+    color: red;
+}
+/* Separando sseletore por vírgula, vamos usar vários seletores */
+p,span{
+    font-size: 15px; /*Os dois elemento com o mesmo tanaho da fonte*/
+}
+/* Estilizando classe filha, nesse caso tem que ter espaço entre as estilizações   */
+.sobre .texto{
+    color: palevioletred;/*Estiliza so a classe texto */
+}
+/* Estilizando com sinal de >, seleciona todos os filhos que estão dentro da 
+classe pai, Seleciona todos os p que estão na div, pode ser uma classe ou 
+id */
+/* div > p{ 
+    color: greenyellow;
+} */
+
+/* Seletor com o sinal de +, estiliza o primeiro elemento depois da div 
+div + p=todos os p que vem depois da tag div, poderia ser uma classe*/
+div + p{
+    color: royalblue;
+}
+/* Estilizando pelo atributos */
+a[target=_blank]{
+    color: red;
+}
+ /*Pode estilizar pelo href também / href="google.com" ex.*/
+ a[href="google.com"]{
+     color: green;
+ }

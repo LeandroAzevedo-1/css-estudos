@@ -1,0 +1,12 @@
+.flex{
+    height: 600px; /*Altura*/
+    width: 100%;    /*Largura*/
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center; /*o Texto vai para o centro */
+}
+
+.flex h2{
+    font-size: 60px;
+}

@@ -1,0 +1,19 @@
+*{   /*Vamos incostar a lista */
+    margin: 0;
+    padding: 0; 
+}
+
+/* Removendo as bolinhas da lista desordenada  */
+ul{
+    /*list-style-type: none;
+    list-style-image: url(./imagens/icone.png); Colocando uma imagem na lista, não conseguimos mudar o tamanho */
+    background-color: aqua;
+    list-style: square inside url(./imagens/icone.png);;
+    /* o inside a imagem quando colocar uma borda ela fica dentro  */
+    
+}
+/*  */
+ul li{
+    border: 1px solid black;
+    padding: 20px;
+}

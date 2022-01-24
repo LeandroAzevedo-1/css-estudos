@@ -1,0 +1,15 @@
+/* Pode ser que o cliente pode uma fonte especifica 
+Vamos baixar do site
+da font e vamos pesquisar a fonte que queremos 
+Para usar essa fonte que foi baixada  */
+
+@font-face {
+    font-family: 'Milk';
+    src: url(./fonts/MilkyNice.ttf), url(./fonts/MilkyNice.otf);
+}
+
+h1{
+    font-family: 'Milk', Helvetica, sans-serif;
+}
+
+/* Podemos usar no h1, colocando o nome da fonte Milk dou um ctrl espaço, para carregar sans-serif */

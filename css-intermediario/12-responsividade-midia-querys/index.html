@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade mídia querys</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!-- Logo e Menu -->
+    <header class="cabecalho">
+        <h1 class="logo">Logo</h1>
+        <nav>
+            <ul>
+                <li><a href="#quem-somo">Quem somo</a></li>
+                <li><a href="#onde">Onde</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+                <!-- Conteúdo -->
+    <main>
+        <section class="painel">
+            <div class="info">
+                <h1> Um filme do batman</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quaerat ipsum tempore aliquam voluptatum repellendus illum odit dolores iusto sequi. Amet voluptatem molestiae eveniet natus possimus neque blanditiis ea illum.
+                </p>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, maiores veritatis tempora odit recusandae odio doloribus consectetur tenetur nemo iure voluptatum quasi ratione adipisci doloremque animi aliquid tempore incidunt quaerat.
+                </p>
+            </div>
+            
+            <div class="image">
+                <picture>
+                    <source srcset="mdn-logo-wide.png" media="mam-widht: 600px">
+                    <!-- telas que estiver menos de 600px vao carregar a imagem
+                    do batman pequeno, se minimizar o browse a imagem também muda-->
+                    <img src="./imagens/batman-pequena.jpg" alt="um filme do batman">
+                    
+                </picture>
+                <!-- <img src="./imagens/batman.jpg" alt="filme do batman"> -->
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>

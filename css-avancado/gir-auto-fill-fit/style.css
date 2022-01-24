@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+
+.container{
+    display: grid;
+    padding: 3em;
+    grid-gap: 2em;
+    /* Usando o grid-auto-fill para responsivo  */
+    /* Ciando colunas 4, tamanho de 200px */
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    /*Com mimax ele acompanha o tamanho, ficando responsivo, colocando 
+    um embaixo do outro, usando o auto-fit,mimax
+    se colocar o auto-fil, quando aumenta a tela fica um espaço 
+    a coluna para no 200px e não espande mais  */
+}
+/* estilo das caixinhas usando uma somba  */
+.container p{
+    padding: 2em;
+    border-radius: .3em;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+}
+
+
+
+/* Usando os media queres para o responsivo  */
+/* @media(min-width: 550px){
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(min-width: 750px){
+    .container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media(min-width: 950px){
+    .container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+} */

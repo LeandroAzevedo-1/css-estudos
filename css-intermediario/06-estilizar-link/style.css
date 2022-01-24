@@ -1,0 +1,19 @@
+a{
+    cursor: progress ; /*É o curso do mause, progress é uma setinha com uma bolinha encima */
+    margin: 20px;
+    padding: 10px;
+}
+/* Alterando a cor ao clicar no link (click aqui */
+a:visited{
+    color: orange;
+}
+/* Quando clico a letrinha fica vermelha ao soltar volta a cor normal  */
+a:active{
+    color: red;
+}
+
+/* Quando passar o mause em cima muda a cor , coloca o fundo e troca o texto para branco  */
+a:hover{
+    background-color: red;
+    color: white;
+}

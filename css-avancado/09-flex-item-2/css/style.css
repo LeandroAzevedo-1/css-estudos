@@ -1,0 +1,44 @@
+.flex-0{
+    /* Flex-grow, Flex-shrink, Flex-basis */
+    flex: 0;
+}
+/* vai ocupar todo container O valor de flex-graw 1, flex-shrink 1 ,flex-basis 0 */
+.flex-1{
+    flex: 1;
+}
+
+/*flex-0 Essa formúla de cima é como se fosse essa de baixo */
+.flex{
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
+
+.flex-wrap{
+    flex-wrap: wrap; /*Vai comçar a quebrar para baixo */
+}
+/* A propriedade order, troca o elemento de posição no css. */
+.order .item3{  /*Pegao item3,podemos trocar de lugar visualmente */
+    order: 5; /* pega o item 3 e coloca no lugar do 5, não troca a ordem no html*/ 
+}
+/* O align self vai definir o posicionamento especifico de um elemento dentro
+do conteiner  */
+/* .align-self .item5{
+    align-self: auto;
+} */
+/* Posiciona em cima  */
+.align-self.start .item3{
+    align-self: flex-start;
+}
+/* Posiciona embaixo */
+.align-self.end .item3{
+    align-self: flex-end;
+}
+/* No centro do container  */
+.align-self.center .item3{
+    align-self: center;
+}
+/* Estica o item ate ocupar todo espaço do container  */
+.align-self.Stretch .item3{
+    align-self: stretch;
+}

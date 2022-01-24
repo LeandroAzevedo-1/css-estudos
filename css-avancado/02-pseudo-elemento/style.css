@@ -1,0 +1,29 @@
+/* seletor::pseudo-classe{
+    propriedade: valor;
+} */
+/*Muda a primeira letra do elemento p, podemos estilizar 
+um classe também ou um id */
+/* #paragrafos::first-letter{
+    color: coral;
+} */
+/* Estiliando a primeiro linha do elemento p */
+/* #paragrafos::first-line{
+    color: coral;
+} */
+
+/* Estelizando os marcadores de uma lista */
+/* li::marker{
+    color: red;
+    font-size: 23px; Aumenta sómente os marcadores da lista
+} */
+
+/* Coloca elemento antes da tag, content define o conteúdo,
+pode ser também um tento ex: content:"Teste" */
+/* h2::before{
+    content: url(./images/logo.jpg);
+} */
+
+/* Insere o elemento depois de cada elemento estilizado   */
+h2::after{
+    content: url(./images/logo.jpg);
+}

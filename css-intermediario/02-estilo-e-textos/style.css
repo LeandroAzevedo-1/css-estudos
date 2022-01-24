@@ -1,0 +1,66 @@
+.alinhado-esquerda{
+    text-align: left; /*text-align Para alinhar o texto (left - esquerda)*/
+}
+
+.alinhamento-direita{
+    text-align: right; /*Text-align para alinhar o texto  ( riht - direita*/
+}
+.alinhamento-centro{
+    text-align: center; /*text-align para alinhar o texto ( center - centro */
+}
+
+/* Alinhado justificado, o texto ocupa 100% do espaço do delemento  */
+.fundo-alinhamento{
+    background-color: orange;
+}
+.alinhado-justificado{
+    text-align: justify; 
+}
+.fundo-transformes{
+    background-color: #90EE90;
+}
+
+                /* TEXTO TRANSFORMADO  */
+
+/*text-transform: uppercase; - transforma todo o texto em MAIUSCULA  */
+.maiuscula{
+    text-transform: uppercase; 
+}
+/* text-transform: lowercase; Transforma o texto em minuscula  */
+.miniscula{
+    text-transform: lowercase;
+}
+/* text-transform: capitalize; Coloca cada letra de inicio de parágrafo MAIUSCULA  */
+.capitalize{
+    text-transform: capitalize;
+}
+            /* Text Descoration */
+.fundo{
+    background-color: palegoldenrod;
+}
+
+.sublinhado{
+    text-decoration: underline; /*Sublinhado embaixo*/
+}
+.linha-sobreposta {
+    text-decoration: overline ; /*Linha sobeposta */
+}
+.linha-sobre{
+    text-decoration:  line-through; /*Linha no meio do texto, como se fosse rasurado*/
+}
+.link{
+    text-decoration: none;
+}
+/* Altura entre linhas  */
+.altura-entre-linhas{
+    line-height: 40px ;
+}
+
+                /*Sombra de texto    */
+.sombra-de-texto{
+    text-shadow: 20px 10px 1px #808080;
+}
+/* 1º afasta o texto da esquerda para direta 20px
+   2º afasta o texto de cima para baixo 10px
+   3º desfoca o texto, geralmente coloca 1px maximo 2px 
+   4º a cor da sombra */

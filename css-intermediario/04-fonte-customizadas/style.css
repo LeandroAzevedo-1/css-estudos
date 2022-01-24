@@ -1,0 +1,10 @@
+/* para trocar para uma fonte do google,vamos abri o Google fonts
+vamos usar como style  */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+/* Não precisa copiar a tag style */
+p{
+    font-size: 24px;
+    font-family: 'Fira Code', monospace;
+    font-weight: 700; /*Peso da fonte */
+}

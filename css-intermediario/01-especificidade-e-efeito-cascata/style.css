@@ -1,0 +1,22 @@
+
+/* .container-cascata{
+    background-color: aqua;
+}
+.container-cascata{
+    background-color: orangered;
+
+}
+Tenho duas class, para o mesmo celetor, o CSS vai lendo o código de cima para baixo, 
+o que predomina e a última  */
+
+/* Especificidade - Aqui não aplica o efeito casacata, por conta da Especificidade 
+Seletor e tudo onde está antes da ex ( p{} ). se tiver um class na div o que predomina é a class, onde 
+ela estiver emcima ou embaixo. Site que fala mais sobre isso é o specificity Calculator, onde podemos 
+colocar a regra e da um sort para verificar .
+Se colocamos um ID, ele tem maus peso. Se colocar um id no P e estilizar ele encima, ele vai predominar */
+    .container-especificidade p{
+        background-color: chartreuse;
+    }
+    p {
+        background-color: lightblue;
+    }

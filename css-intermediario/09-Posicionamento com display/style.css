@@ -1,0 +1,38 @@
+/* Tirando o pontinho antes dos números */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Aumentar todas as fontes  */
+html{
+    font-size: 24px; 
+}
+/* para ter uma separação de todas nossas listas  */
+ul{
+    margin-bottom: 50px;
+}
+.em-bloco li{
+    background: aqua;
+    margin-bottom: 20px;
+    width: 100px; /*largura para os itens, se tirar o widht o elemento vai ocupar toda tela*/
+    display: block;
+}
+/* Não funciona largura e nem altura no display inline */
+.em-linha li{
+    display: inline;
+    background: aqua;
+}
+/* É usado muito em menu */
+.em-linha-e-bloco li{
+    display: inline-block;
+    background: aqua;
+    width: 100px; /*largura*/
+    height: 100px; /*altura*/
+}
+/* Disply none é muito usando para esconder alguma coisa grande no cel exemplo  */
+.esconder{
+    display: none;
+    background: aqua;
+    width: 100px; /*largura*/
+    height: 100px; /*altura*/
+}

@@ -1,0 +1,47 @@
+/* seletor:pseudo-classes{
+    propriedade: valor;
+} */
+
+/* Com essa firts child conseguimos estilizar 
+so 1 parágrafos */
+
+/* p:first-child{
+    color: aquamarine;
+} */
+
+/* Estiliza o último parágrafo  */
+/* p:last-child{
+    color: red;
+} */
+
+/*A classe que vai ser negada, então onde esta a classe 
+padrao no html, ela não vai mudar a cor */
+/* p:not(.padrao){
+    color: yellowgreen;
+} */
+/* Seleciona elemento apartir da posição dele, em um grupo 
+de elementos irmãos,odd são todos elementos impar são
+eltilizado 
+então odd-impar 
+      even-pares 
+comentário So o primeiro muda de cor que é impar */
+/* p:nth-child(odd){ 
+    color: greenyellow;
+} */
+/* Estilizando a lista, todas a listas pares  
+se colocar (3n), o terceiro elemento vai ser vermelhor 
+(2)- ele pega o elemento 2 da lista 
+li:nth-child(n+2): nth-clild(n+5) estiliza do 2 elemento
+até o 5 elemento */
+/* li:nth-child(even){
+    color: red;
+} */
+/* Estiliza do último para o primeiro */
+/* li:nth-last-child(1){
+    color: red;
+} */
+
+/*Estiliza so o p que não tem irmão no html */
+p:only-child{
+    color: red;
+}

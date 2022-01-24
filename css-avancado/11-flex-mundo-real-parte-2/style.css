@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;/*Separando os elementos, vai para direita*/
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 15px;
+}
+
+/* Estilizar responsivo */
+@media(max-width: 425px){
+    .logo{
+        display: block;
+        width: 100%; /*Toda largura da tela */
+        text-align: center;
+    }
+
+    nav{ /*O nav já é disply block por padrão */
+        width: 100px;
+        text-align: center;
+    }
+
+    .menu{
+        display: block;
+        margin-top: 30px;
+    }
+
+    .menu li{
+        margin-left: 0;
+    }
+
+    .menu a{
+        padding: 20px; /*Aumenta o espaço entre os menus */
+        display: block; 
+    }
+}

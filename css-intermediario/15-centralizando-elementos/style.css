@@ -1,0 +1,63 @@
+                    /* ----Estilo Gerais ---- */
+body{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+
+.container{
+    background-color: lightgray;
+    height: 380px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.btm {
+    width: 250px;
+    height: 50px;
+    background-color: lightseagreen;
+    color: white;
+    font-size: 1.2em;
+}
+                /* 1º formula */
+.texto-centralizado{
+    width: 250px;/*largura ,fazendo um quadrado */
+    height: 250px; /*altura */
+    background-color: orange;
+
+    text-align: center;/* centralizar centro  */
+    line-height: 250px;/* Centralizar vertical, temos que colcoar o mesmo tamanho height  */
+
+}
+                /* 2º Formula */
+.texto-centralizado-2{
+    position: absolute;
+    top: 50%;  /*O elemento move 50% da div, dividindo  no meio */
+    /*transform: translateY(-50px); Move para cima */
+    /* Agora esta totalmente centralizado verticalmente */
+    /*Centralizar horizontalmente, movel 50% para direita */
+    left: 50%;
+    /* transform: translateX(-50%); movel para centro a direta */
+
+    /* mas vamos usar um transform y e x  na mesma propriedade*/
+    transform: translate3d(-50%, -50%);
+}
+        /* 3º formula  a class btm ja foi construida */
+.alinhamento-margin-auto{
+    margin: auto; /*Margem automatica, se tiver tamanho sobrando ela divide,tem que 
+    mudar o botão para display block*/
+    display: block;
+}
+        /* 4º Formula */
+.alinhamento-absoluto{
+    position: absolute;
+     margin: auto;/* não funciona quando o position é absoluto, tem que zera top,left,right,botton*/
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+/*  Se zera todos os valores o margin auto passa a funcionar  */
+}
+            /* 5º Formula */
+.container-text-align{
+    text-align: center;
+}

@@ -1,0 +1,40 @@
+.container{
+    height: 130px; /*Altura*/
+    flex-wrap: wrap; /*quebrar os elementos dentro do container */
+}
+
+.flex-start .item,
+.flex-end .item,
+.center .item,
+.stretch .item{
+    flex: 1;
+}
+/* Flex-start, alinha no top no eixo transversal */
+.flex-start{
+    align-content: flex-start;
+}
+/* Alinhado no final do eixo transversal */
+.flex-end{
+    align-content: flex-end;
+}
+/* Alinha no meio */
+.center{
+    align-content: center;
+}
+/* Esende ate o final, preenche todo espaço que está sobrando */
+.stretch{
+    align-content: stretch;
+}
+/* Alinha todos os item, quando acaba o espaço, ele vai para o final do eixo
+transversal, então o 6 elemento ficou emabixo por falta de espaço */
+.spacebetween{
+    align-content: space-between;
+}
+/* Tem mais espaço emcima e embaixo, distancia o texto do container  */
+.space-around{
+    align-content: space-around;
+}
+/* Vai centralizando os itens, da espaço encima e embai  */
+.space-evenly{
+    align-content: space-evenly;
+}

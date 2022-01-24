@@ -1,0 +1,28 @@
+/*Estilizar a patir desse css */
+.flex-star{
+    justify-content: flex-start;
+}
+/* Valores da propriedade justify-content
+flex-star é o padrão, se não definir nada ele fica com flex-star
+*/
+.flex-end{
+    justify-content: flex-end;
+}
+
+.center{
+    justify-content: center
+}
+/* Espaço entre elemento  */
+.space-between{
+    justify-content: space-between;
+}
+/* Espaço em volta, observação: o espaço entre o 1 e o 2
+vai ser diferente porque ele contabiliza 1 espaço em 
+volta de cada número, então fica 2 espaço entre o 1 e 2 */
+.space-around{
+    justify-content:space-around ;
+}
+/* Espaços com o mesmo tanho entre os itens  */
+.space-evenly{
+    justify-content: space-evenly;
+}

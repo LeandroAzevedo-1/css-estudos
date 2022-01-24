@@ -1,0 +1,28 @@
+/* Todas imagens com 200px de tamanho */
+img{
+    width: 200px;
+}
+
+img.scale{
+    transform: scale(2, 1.5)
+}
+/* Pode usar o scalex(2)
+   Pode usar o scaley(1.5) */
+
+/* Girar um elemento na tela
+deg = graus
+podemos tambem estilizar o eixo x e y 
+rotatex(45deg) ex ou
+rotatey(45deg) */
+img.rotate{
+    transform: rotate(15deg); 
+}
+/* translate, movimenta 2d, horizontal e vertical  
+eixo x = movimenta para o lado 50px 
+eixo y = movimenta para baixo 20px
+
+Podemos fazer so o eixo x ex:transform:translatex(50px)
+moviemnta a imagem para o lado 50px*/
+img.translate{
+    transform:translate(100px, 20px) ;
+}

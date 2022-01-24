@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.cabecalho{
+    background-color: #FFA07A;
+}
+
+.menu{
+    background-color: cornflowerblue;
+}
+.secao-principal{
+    background-color: hotpink;
+}
+.aside{
+    background-color: orangered;
+}
+.rodape{
+    background-color: green;
+}
+/* Estilizar o container  */
+.container{
+     display: grid;
+     /*
+    grid-template-areas: 
+    "cabecalho cabecalho cabecalho"
+    "menu secao-principal aside"
+    "rodape rodape rodape"; */
+    /* Se colcoar o . no lugar do rodape no meio, o elemento fica vazio */
+
+    /* Versão abreviada  */
+    
+    grid: 
+    "cabecalho cabecalho cabecalho" 200px /*tamanho da linha*/
+    "menu secao-principal aside" 400px /*tamanho da linha*/
+    "rodape rodape rodape" 250px /*tamanho da linha*/
+    / 160px auto 60px 
+    /*Definindo largura de colunas 1 , 2-auto adequa o tamanho  , 3*/
+    
+}
+
+.cabecalho{
+    grid-area: cabecalho;
+}
+.menu{
+    grid-area: menu;
+}
+.secao-principal{
+    grid-area: secao-principal;   
+}
+.aside{
+    grid-area: aside;
+}
+.rodape{
+    grid-area: rodape;
+}

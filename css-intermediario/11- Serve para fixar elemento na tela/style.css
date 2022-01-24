@@ -1,0 +1,16 @@
+*{
+    margin: 0; /*Encostar todos elemento na tela */
+}
+
+body{
+    height: 1500px; /*Altura*/
+    padding-top: 67px;;
+}
+header{
+    font-size: 24px;
+    position: fixed; /*Fixa o menu na tela */
+    background-color: lightgreen;
+    width: 100px;
+    padding: 20px;
+    top: 0; /*Vai pra cima o menu*/
+}

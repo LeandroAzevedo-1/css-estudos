@@ -1,0 +1,28 @@
+.float .right{
+    float: right; /*flutuando a direita */
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+
+.float .left{
+    float: left; /*flutuando a esquerda*/
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+}
+/*A altura da tag section, não e recomendado ficar 0 , por isso temos que criar  after
+Com esse estilo  a tag section tera 100px */
+.float .after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* O float foi criado para colocar texto em volta da imagem   */
+img{
+    float: left; /*A imagem fica do lado esquerdo*/
+    width: 100px; /*Altura*/
+    height: 100px; /*Largura */
+    margin-right: 15px; /*Da o espacamento entre a imagem e o texto */
+}

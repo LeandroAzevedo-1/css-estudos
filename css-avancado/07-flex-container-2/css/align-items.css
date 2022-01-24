@@ -1,0 +1,27 @@
+/* O align items defini o comportameto padrão dos flex items */
+.container{
+    height: 130px; /*aumento o tamanho do container*/
+}
+.flex-start{
+    align-items: flex-start; /*Fica no top da div pai*/
+}
+
+.center{
+    align-items: center; /*alinha no centro */
+}
+
+.stretch{
+    align-items: stretch;/*estica para preencher a altura do container*/
+}
+
+/* baseline, vamos estilizar todas as classes dentro dele  */
+.baseline{
+    align-items: baseline;/**/
+}
+
+.baseline .item{
+    flex: 1;
+}
+.baseline .item:first-child{
+    padding-top: 20px;
+}
